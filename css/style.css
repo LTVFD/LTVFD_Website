@@ -35,7 +35,6 @@ blockquote {
     border-left: 3px solid #ec440b;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -45,6 +44,12 @@ h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight:700;
+}
+
+h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size:56px;
 }
 
 .mb250 {
@@ -1267,13 +1272,13 @@ ul.nav-tabs li a:hover {
 
 ul.nav-tabs li.active a {
     color: #fff;
-    background-color: grey;
+    background-color: #0e87ab;
 }
 
 ul.nav-tabs li.active a:hover,
 ul.nav-tabs li.active a:focus {
     color: #fff;
-    background-color: grey;
+    background-color: #0e87ab;
 }
 
 .at-ext-mini-features {
@@ -3033,6 +3038,10 @@ body.dark footer .footer-social ul li a {
     .features-list li {
         width: 50%;
     }
+    
+    h1 {
+    	font-size: 40px;
+    }
 
     .features-list li:nth-child(2n) .feature {
         border-right-width: 1px;
@@ -3072,6 +3081,10 @@ body.dark footer .footer-social ul li a {
 @media (max-width: 560px) {
     .features-list li {
         width: 100%;
+    }
+    
+    h1 {
+    	font-size: 36px;
     }
 
     .features-list li .feature {
