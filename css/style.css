@@ -1267,13 +1267,13 @@ ul.nav-tabs li a:hover {
 
 ul.nav-tabs li.active a {
     color: #fff;
-    background-color: grey;
+    background-color: #0e87ab;
 }
 
 ul.nav-tabs li.active a:hover,
 ul.nav-tabs li.active a:focus {
     color: #fff;
-    background-color: grey;
+    background-color: #0e87ab;
 }
 
 .at-ext-mini-features {
