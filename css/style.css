@@ -35,7 +35,6 @@ blockquote {
     border-left: 3px solid #ec440b;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -44,6 +43,13 @@ h6 {
     color: #3d4a50;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    font-weight:700;
+}
+
+h1 {
+	color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
     font-weight:700;
 }
 
@@ -3055,6 +3061,10 @@ body.dark footer .footer-social ul li a {
     .feature {
         margin-bottom: 30px;
     }
+    
+    h1 {
+    	font-size: 40px;
+    }
 
     .ft-sec-mockup {
         display: none;
@@ -3090,6 +3100,10 @@ body.dark footer .footer-social ul li a {
 
     .feature {
         margin-bottom: 30px;
+    }
+    
+    h1 {
+    	font-size: 36px;
     }
 
     .ft-sec-mockup {
