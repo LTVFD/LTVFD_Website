@@ -3308,22 +3308,6 @@ body.dark footer .footer-social ul li a {
     background-size: 100% 100%;
 }
 
-.hover_mob2 {
-    display: none;
-}
-
-.hover_mob3 {
-    display: none;
-}
-
-.crop_hover2 {
-    display: none;
-}
-
-.crop_hover3 {
-    display: none;
-}
-
 .might-grid {
     padding: 9% 0 0;
 }
@@ -3368,5 +3352,4 @@ body.dark footer .footer-social ul li a {
     color: #fff;
     font-size: 20px;
 }
-
 
