@@ -1966,14 +1966,18 @@ ul.nav-tabs li.active a:focus {
 .contact-form-container select {
     width: 100%;
     margin-bottom: 20px;
+    background-color:#fff !important;
 }
 
 .contact-form-container select {
     height: 52px;
+    background-color:#fff !important;
+
 }
 
 .contact-form-container textarea {
     height: 200px;
+    background-color:#fff !important;
 }
 
 .contact-form-container .at-btn-container {
@@ -3356,4 +3360,3 @@ body.dark footer .footer-social ul li a {
     color: #fff;
     font-size: 20px;
 }
-
