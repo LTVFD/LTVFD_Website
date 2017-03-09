@@ -362,6 +362,10 @@ h1 {
     background-color: #fff !important;
 }
 
+.bgcontact{
+    background-color:#f0f1f1 !important;
+}
+
 .at-home,
 .at-features,
 .at-features-ext,
@@ -2691,7 +2695,7 @@ ul.nav-tabs li.active a:focus {
 }
 
 footer .copyright {
-    background-color: #f0f1f1;
+    background-color: #0e87ab;
     text-align: center;
     padding: 12px 0;
 }
