@@ -362,6 +362,10 @@ h1 {
     background-color: #fff !important;
 }
 
+.bgcontact{
+    background-color:#f0f1f1 !important;
+}
+
 .at-home,
 .at-features,
 .at-features-ext,
@@ -945,6 +949,7 @@ header.header-navbar .logo {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
     -webkit-transition: border-color 0.9s;
     transition: border-color 0.9s;
+    margin-bottom: 30px;
 }
 
 .apparatus .feature-icon {
@@ -980,7 +985,9 @@ header.header-navbar .logo {
 .apparatus p.feature-desc {
     width: 100%;
     position: absolute;
-    padding: 0 20px;
+    font-size: 16px;
+    line-height:100%;
+    padding: 0 15px;
     color: #fff;
     top: 100%;
     left: 0;
@@ -1018,7 +1025,7 @@ header.header-navbar .logo {
 }
 
 .apparatus:hover p.feature-desc {
-    top: 45px;
+    top: 20px;
     z-index: 9;
     opacity: 1;
     color: #fff;
@@ -1962,14 +1969,18 @@ ul.nav-tabs li.active a:focus {
 .contact-form-container select {
     width: 100%;
     margin-bottom: 20px;
+    background-color:#fff !important;
 }
 
 .contact-form-container select {
     height: 52px;
+    background-color:#fff !important;
+
 }
 
 .contact-form-container textarea {
     height: 200px;
+    background-color:#fff !important;
 }
 
 .contact-form-container .at-btn-container {
@@ -2691,7 +2702,7 @@ ul.nav-tabs li.active a:focus {
 }
 
 footer .copyright {
-    background-color: #f0f1f1;
+    background-color: #0e87ab;
     text-align: center;
     padding: 12px 0;
 }
@@ -3352,4 +3363,3 @@ body.dark footer .footer-social ul li a {
     color: #fff;
     font-size: 20px;
 }
-
