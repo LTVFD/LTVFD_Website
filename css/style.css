@@ -949,6 +949,7 @@ header.header-navbar .logo {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
     -webkit-transition: border-color 0.9s;
     transition: border-color 0.9s;
+    margin-bottom: 30px;
 }
 
 .apparatus .feature-icon {
@@ -984,7 +985,9 @@ header.header-navbar .logo {
 .apparatus p.feature-desc {
     width: 100%;
     position: absolute;
-    padding: 0 20px;
+    font-size: 16px;
+    line-height:100%;
+    padding: 0 15px;
     color: #fff;
     top: 100%;
     left: 0;
@@ -1022,7 +1025,7 @@ header.header-navbar .logo {
 }
 
 .apparatus:hover p.feature-desc {
-    top: 45px;
+    top: 20px;
     z-index: 9;
     opacity: 1;
     color: #fff;
