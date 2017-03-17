@@ -51,6 +51,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     font-weight:700;
+    text-shadow: 2px 2px 10px #222;
 }
 
 .mb250 {
@@ -986,7 +987,7 @@ header.header-navbar .logo {
     width: 100%;
     position: absolute;
     font-size: 16px;
-    line-height:100%;
+    line-height:18px;
     padding: 0 15px;
     color: #fff;
     top: 100%;
@@ -995,6 +996,12 @@ header.header-navbar .logo {
     -webkit-transition: color 0.5s, opacity 0.5s, top 0.4s;
     transition: color 0.5s, opacity 0.5s, top 0.4s;
 }
+
+.apparatus-desc {
+	margin-top: 30px;
+	font-size: 13px;
+	line-height: 16px;
+	}
 
 .apparatus:after {
     content: '';
