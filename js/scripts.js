@@ -149,13 +149,13 @@ $(document).ready(function() {
                     $btn.button('reset')
                 }
                 else {
-                    $('#result-message').addClass('alert alert-danger').html('<strong>Error!</strong> Message Sending Error! Please try again').delay(500).slideDown(500).delay(10000).slideUp('slow');
+                    $('#result-message').addClass('alert alert-danger').html('<strong>Error!</strong> Message Sending Error! Please try again or call us at 908-638-4550.').delay(500).slideDown(500).delay(10000).slideUp('slow');
                     $btn.button('reset')
                 }
             },
             error: function(a, b) {
                 if (b == 'error') {
-                    $('#result-message').addClass('alert alert-danger').html('<strong>Error!</strong> Message Sending Error! Please try again BIG ERROR').delay(500).slideDown(500).delay(10000).slideUp('slow');
+                    $('#result-message').addClass('alert alert-danger').html('<strong>Error!</strong> Message Sending Error! Please try again or call us at 908-638-4550.').delay(500).slideDown(500).delay(10000).slideUp('slow');
                 };
                 $btn.button('reset')
             },
